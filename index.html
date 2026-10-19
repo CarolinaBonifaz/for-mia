@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>For Mia ❤️</title>
+
+    <style>
+        body {
+            background-color: #fff0f5;
+            text-align: center;
+            font-family: Georgia, serif;
+            padding-top: 150px;
+        }
+
+        h1 {
+            color: #b03060;
+            font-size: 48px;
+        }
+
+        p {
+            color: #80506a;
+            font-size: 20px;
+        }
+
+button {
+    background-color: #b03060;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 35px;
+    font-family: Georgia, serif;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 25px;
+    box-shadow: 0 5px 15px rgba(176, 48, 96, 0.2);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #8b214b;
+    transform: scale(1.05);
+}
+   
+ </style>
+</head>
+
+<body>
+    <h1>I Love You, Mia! ❤️</h1>
+    <p>Made with love, by Pollito.</p>
+
+    <button onclick="showMessage()">Click for a surprise ❤️</button>
+
+    <p id="secretMessage" hidden>
+        I Love You 3000. ❤️
+    </p>
+
+<script>
+    function showMessage() {
+        document.getElementById("secretMessage").hidden = false;
+    }
+</script>
+
+</body>
+</html>
